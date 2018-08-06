@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regiones</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <script type="text/javascript" src="jquery-1.12.2.min.js"></script>
+	<script>
+            function cargar(div, destino){
+     		$(div).load(destino);
+            }
+	</script>
+</head>
+<body>
+
+	<div class="row">
+		<div class="col-md-12">
+			<div class="jumbotron">
+      			<h1 class="text-center">
+                            Regiones
+			</h1>
+                        </div>
+		</div>
+
+	</div>
+	
+	<div class="row">
+		<div class="col-md-3">
+			<div class="panel panel-info">
+				<div class="panel-heading text-center">
+						MENÚ DE OPCIONES
+				</div>
+				<div class="panel-body">
+                                    <div class="list-group">
+						<a href="index.html" class="list-group-item text-center">Inicio</a>
+						<a href="regiones.html" class="list-group-item text-center" >Regiones</a>
+						<a href="#" class="list-group-item text-center">Departamentos</a>
+						<a href="#" class="list-group-item text-center">Municipios</a>
+                                                <a href="#" class="list-group-item text-center">Ciudadanos</a>
+                                                <a href="#" class="list-group-item text-center">Niveles Académicos</a>
+                        		</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-7">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading text-center">
+						CONTENIDO
+                        </div>
+                            <div class="panel-body">
+                                <div class="text-center">
+                                    <a href="Javascript: cargar('#Formulario','frmRegIns.html');" class="text-danger">Nueva Región</a>
+                                <a href="Javascript: cargar('#Formulario','frmRegSel.html');">Buscar Región</a>
+                                <a href="Javascript: cargar('#Formulario','frmRegUpd.html');" class="text-danger">Modificar Región</a>
+                                <a href="Javascript: cargar('#Formulario','frmRegDel.html');">Eliminar Región</a>
+                                <a href="Javascript: cargar('#Formulario','frmRegVer.html');" class="text-danger">Ver Regiones</a>
+                                </div   >
+                                <div id="Formulario">
+                                    <!-- AQUÍ SE COLOCAN LOS FORMULARIOS PARA EL CRUD-->
+                                </div>
+                                
+                            </div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="panel panel-info">
+				<div class="panel-heading text-center">
+						CAMBIA TU VIDA
+				</div>
+				<div class="panel-body">
+					<img src="imagenes/logointecap.png" alt="Logo INTECAP" class="img-thumbnail center-block" style="width: 200px">
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-12">
+			<div class="alert alert-info text-center" role="alert">
+        		<strong>"Cambia tu vida"</strong> 
+      		</div>
+		</div>
+	</div>
+			
+	<!-- jquery-->	
+	<script src="jquery-1.12.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
